@@ -8,7 +8,7 @@ module.exports = {
     // Main Site Title
     title: `Albert Marquez | Software Engineer`,
     // Description that goes under your name in main bio
-    description: `Software Engineer, Data Privacy Advocate`,
+    description: `Software Engineer`,
     // Optional: Twitter account handle
     // author: `@a-marquez`,
     // Optional: Github account URL
