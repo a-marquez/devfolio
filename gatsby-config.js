@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/portfolio',
   siteMetadata: {
     // Site URL for when it goes live
     siteUrl: `https://a-marquez.github.io/portfolio/`,
@@ -13,7 +14,7 @@ module.exports = {
     // Optional: Github account URL
     github: `https://github.com/a-marquez`,
     // Optional: LinkedIn account URL
-    // linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/albert-marquez-0919a9258/`,
     // Content of the About Me section
     about: `I'm a software engineer with both front-end and back-end experience. Clean and performant code is a passion of mine, as is contributing to
     efforts in environmental or health information spaces. Tech interests include automation scripting, computer-vision, machine learning,
@@ -29,13 +30,13 @@ module.exports = {
       {
         name: 'Texas Water Explorer | The Nature Conservancy',
         description:
-          '',
+          'A dashboard to visualize water metrics using geodata.',
         link: 'http://www.texaswaterexplorer.tnc.org/map.html',
       },
       {
         name: 'STATcompiler | The DHS Program',
         description:
-          '',
+          'A data visualization and selection tool, allowing users to explore data in chart or map formats. ',
         link: 'https://www.statcompiler.com/en/',
       },
       {
