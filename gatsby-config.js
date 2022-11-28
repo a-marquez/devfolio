@@ -15,17 +15,51 @@ module.exports = {
     // Optional: LinkedIn account URL
     // linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
     // Content of the About Me section
-    about: `I'm a software engineer with both front-end and back-end experience. Clean performant code is a passion of mine, as is contributing to
+    about: `I'm a software engineer with both front-end and back-end experience. Clean and performant code is a passion of mine, as is contributing to
     efforts in environmental or health information spaces. Tech interests include automation scripting, computer-vision, machine learning,
     and microservice orchestration. Non-tech interests include swimming, music, and survival games.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'STATCompiler Dashboard',
+        name: '18F openFDA API Challenge | Blue Raster',
+        description:
+          'A prototype map visualization for an API providing food recall information.',
+        link: 'https://www.blueraster.com/18f/',
+      },
+      {
+        name: 'Texas Water Explorer | The Nature Conservancy',
         description:
           '',
-        link: '',
-      }
+        link: 'http://www.texaswaterexplorer.tnc.org/map.html',
+      },
+      {
+        name: 'STATcompiler | The DHS Program',
+        description:
+          '',
+        link: 'https://www.statcompiler.com/en/',
+      },
+      {
+        name: 'Surveys Overview Map | The DHS Program',
+        description:
+          'DHS\'s interactive map detailing what surveys have been conducted in what countries.',
+        link: 'https://dhsprogram.com/countries/index.cfm?show=map',
+      },
+      {
+        name: 'SDR Indicator Data | The DHS Program',
+        description: 'A tool to help users specify the selection and format of geodata for health surveys run by the DHS and other organizations.',
+        link: 'https://spatialdata.dhsprogram.com/data'
+      },
+      {
+        name: 'Ellisdale Construction',
+        description: 'A WordPress site for a local construction business to display projects. Made to be easily edited by client.',
+        link: 'https://ellisdaleconstruction.com/'
+      },
+      {
+        name: 'Square 134 Architects',
+        description: 'A portfolio site for an architecture firm. Built with WordPress.',
+        link: 'https://square134.com/'
+      },
+
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
