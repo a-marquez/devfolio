@@ -12,7 +12,7 @@ const SummaryItem = ({ name, description, link = false, internal = false }) => {
   if (internal) {
     linkContent = <Link to={link} target='_blank'>{name}</Link>;
   } else {
-    linkContent = <a href={link} target='_blank'>{name}</a>;
+    linkContent = <a href={link} target='_blank' rel='noreferrer'>{name}</a>;
   }
 
   return (

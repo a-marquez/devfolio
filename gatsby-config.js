@@ -14,8 +14,10 @@ module.exports = {
     // Optional: Github account URL
     github: `https://github.com/a-marquez`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/albert-marquez-0919a9258/`,
+    linkedin: `https://www.linkedin.com/in/al-marquez/`,
     // Content of the About Me section
+    email: `albertmarquez@outlook.com`,
+
     about: `I'm a software engineer with both front-end and back-end experience. Clean and performant code is a passion of mine, as is contributing to
     efforts in environmental or health information spaces. Tech interests include automation scripting, computer-vision, machine learning,
     and microservice orchestration. Non-tech interests include swimming, music, and survival games.`,
@@ -42,7 +44,7 @@ module.exports = {
       {
         name: 'Surveys Overview Map | The DHS Program',
         description:
-          'DHS\'s interactive map detailing what surveys have been conducted in what countries.',
+          "DHS's interactive map detailing what surveys have been conducted in what countries.",
         link: 'https://dhsprogram.com/countries/index.cfm?show=map',
       },
       {
@@ -52,21 +54,44 @@ module.exports = {
       },
       {
         name: 'Ellisdale Construction',
-        description: 'A WordPress site for a local construction business to display projects. Made to be easily edited by client.',
+        description: 'WordPress site for a local construction business to display projects. Made to be easily edited by client.',
         link: 'https://ellisdaleconstruction.com/'
       },
       {
         name: 'Square 134 Architects',
-        description: 'A portfolio site for an architecture firm. Built with WordPress.',
+        description: 'Portfolio site for an architecture firm. Built with WordPress.',
         link: 'https://square134.com/'
       }
     ],
     projects: [
       {
+        name: 'Pokemon Go Automation Assistant',
+        description: `Automates trading, and gift sending/receiving. Project uses Node and adb,
+        rendering a React application in the terminal to provide status, control options, and launch functions.`,
+        link: 'https://gitlab.com/star_lion/mobile-assistants/-/tree/main/packages/pogo'
+      },
+      {
+        name: 'Puzzle and Dragon Bot',
+        description: `Tool to automatically solve and execute solution for the mobile matching game Puzzle and Dragon.
+        Project involves both server and client components, uing Node, adb, and fastify. Implements an api to expose
+        functionality to client.`,
+        link: 'https://gitlab.com/star_lion/pad-bot-2'
+      },
+      {
         name: 'Ink Components',
-        description: 'A small library of ui components to use with Ink.js.',
-        link: ''
-      }
+        description: 'A small library of UI components to use with Ink.js. for rendering terminal UIs.',
+        link: 'https://gitlab.com/star_lion/mobile-assistants/-/tree/main/lib/ink-components'
+      },
+      {
+        name: "Extended Map Icons | Don't Starve",
+        description: "A game mod that adds extra map icons, project uses a Node script to generate appropriate game Lua files from image assets.",
+        link: 'https://steamcommunity.com/sharedfiles/filedetails/?id=703451582'
+      },
+      {
+        name: "Obedient Companions | Don't Starve",
+        description: 'Another mod that adds functionality, uses Lua scripting to add stay/recall functionality to companions.',
+        link: 'https://steamcommunity.com/sharedfiles/filedetails/?id=701538210'
+      },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
@@ -91,7 +116,7 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript/TypeScript, Node.js, React, Redux, Ramda, ArcGIS JS, WordPress',
+          'JavaScript/TypeScript, Node.js, React, ArcGIS JS, Python, WordPress',
       },
       {
         name: 'Databases',
