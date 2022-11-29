@@ -10,9 +10,9 @@ const classes = {
 const SummaryItem = ({ name, description, link = false, internal = false }) => {
   let linkContent;
   if (internal) {
-    linkContent = <Link to={link}>{name}</Link>;
+    linkContent = <Link to={link} target='_blank'>{name}</Link>;
   } else {
-    linkContent = <a href={link}>{name}</a>;
+    linkContent = <a href={link} target='_blank'>{name}</a>;
   }
 
   return (

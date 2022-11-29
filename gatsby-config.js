@@ -20,7 +20,7 @@ module.exports = {
     efforts in environmental or health information spaces. Tech interests include automation scripting, computer-vision, machine learning,
     and microservice orchestration. Non-tech interests include swimming, music, and survival games.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
-    projects: [
+    work: [
       {
         name: '18F openFDA API Challenge | Blue Raster',
         description:
@@ -59,8 +59,14 @@ module.exports = {
         name: 'Square 134 Architects',
         description: 'A portfolio site for an architecture firm. Built with WordPress.',
         link: 'https://square134.com/'
-      },
-
+      }
+    ],
+    projects: [
+      {
+        name: 'Ink Components',
+        description: 'A small library of ui components to use with Ink.js.',
+        link: ''
+      }
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
