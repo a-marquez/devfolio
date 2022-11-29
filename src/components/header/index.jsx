@@ -1,6 +1,8 @@
 import { Link } from 'gatsby';
 import get from 'lodash/get';
 import React from 'react';
+import {SiLinkedin, SiGithub} from 'react-icons/si'
+import {MdEmail} from 'react-icons/md'
 
 import profileImg from '../../images/profile.jpg';
 
@@ -13,8 +15,8 @@ const classes = {
   description: 'text-gray-600',
   list: 'mt-6 uppercase tracking-wider',
   item: 'inline list-none pr-4',
-  link:
-    'inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black',
+  link: 'inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black',
+  linkIcon: 'inline-block mr-1'
 };
 
 const Header = ({ metadata = {}, noBlog = false }) => {
@@ -49,6 +51,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
           {github && (
             <li className={classes.item}>
               <a className={classes.link} href={github} target='_blank' rel="noreferrer">
+                <SiGithub className={classes.linkIcon} style={{transform: 'translateY(-1px)'}} />
                 GitHub
               </a>
             </li>
@@ -56,6 +59,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
           {linkedin && (
             <li className={classes.item}>
               <a className={classes.link} href={linkedin} target='_blank' rel="noreferrer">
+                <SiLinkedin className={classes.linkIcon} style={{transform: 'translateY(-1px)'}} />
                 LinkedIn
               </a>
             </li>
@@ -63,6 +67,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
           {email && (
             <li className={classes.item}>
               <a className={classes.link} href={`mailto:${email}`} target='_blank' rel="noreferrer">
+                <MdEmail className={classes.linkIcon} style={{transform: 'translateY(-1px)'}} />
                 Email
               </a>
             </li>
